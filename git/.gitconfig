@@ -1,0 +1,6 @@
+[user]
+	name = lucasyarza
+	email = lucasyarza@gmail.com
+[core]
+	askpass = /usr/bin/ksshaskpass
+	excludesfile = /home/ldeyarza/.gitignore_global
