@@ -1,0 +1,53 @@
+#define nord0 #2E3440
+#define nord1 #3B4252
+#define nord2 #434C5E
+#define nord3 #4C566A
+#define nord4 #D8DEE9
+#define nord5 #E5E9F0
+#define nord6 #ECEFF4
+#define nord7 #8FBCBB
+#define nord8 #88C0D0
+#define nord9 #81A1C1
+#define nord10 #5E81AC
+#define nord11 #BF616A
+#define nord12 #D08770
+#define nord13 #EBCB8B
+#define nord14 #A3BE8C
+#define nord15 #B48EAD
+
+*polar_night-1: nord0
+*polar_night-2: nord1
+*polar_night-3: nord2
+*polar_night-4: nord3
+*snow_storm-1: nord4
+*snow_storm-2: nord5
+*snow_storm-3: nord6
+*frost-1: nord7
+*frost-2: nord8
+*frost-3: nord9
+*frost-4: nord10
+*aurora-1: nord11
+*aurora-2: nord12
+*aurora-3: nord13
+*aurora-4: nord14
+*aurora-5: nord15
+
+*.color0: nord0
+*.color1: nord11
+*.color2: nord14
+*.color3: nord13
+*.color4: nord9
+*.color5: nord15
+*.color6: nord8
+*.color7: nord6
+*.color8: nord1
+*.color9: nord11
+*.color10: nord14
+*.color11: nord13
+*.color12: nord9
+*.color13: nord15
+*.color14: nord7
+*.color15: nord6
+
+rofi.color-enabled: true
+rofi.font: Source Code Pro Semibold 10.5
