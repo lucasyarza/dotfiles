@@ -28,7 +28,7 @@ set $mod Mod4
 set $laptop_screen eDP1
 set $primary DP1
 set $secondary HDMI1
-set $wallpaper /home/ldeyarza/Pictures/wallpapers/NordMountains1.png
+set $wallpaper $HOME/Pictures/wallpapers/NordMountains1.png
 
 ######################
 ##╔═╗╔═╗╦  ╔═╗╦═╗╔═╗##
@@ -75,7 +75,7 @@ font xft:FiraCode Nerd Font 11
 bindsym $mod+Return exec konsole
 
 # Search on google
-bindsym $mod+z exec /home/ldeyarza/Documents/search.sh
+bindsym $mod+z exec $HOME/Documents/search.sh
 
 # Lock session
 bindsym $mod+l exec loginctl lock-session
@@ -84,7 +84,7 @@ bindsym $mod+l exec loginctl lock-session
 bindsym $mod+Shift+q kill
 
 # start program launcher (rofi)
-bindsym mod1+space exec --no-startup-id rofi -show drun -show-icons -theme black
+bindsym $mod+space exec --no-startup-id rofi -show drun -show-icons -theme black
 bindsym $mod+Tab exec --no-startup-id rofi -show window -show-icons -theme black
 
 # move focus
@@ -121,7 +121,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym Mod1+space focus mode_toggle
 
 # toggle sticky
 bindsym $mod+Shift+s sticky toggle

@@ -10,7 +10,7 @@ evdev:input:b0003v046Dp405B*
   KEYBOARD_KEY_c00e2=f10
   KEYBOARD_KEY_c00ea=f11
   KEYBOARD_KEY_c00e9=f12
-#Mapping old FN keys back to media keys  
+#Mapping old FN keys back to media keys
   KEYBOARD_KEY_7003d=homepage
   KEYBOARD_KEY_7003e=compose
   KEYBOARD_KEY_7003f=back
