@@ -248,14 +248,13 @@ ramp-capacity-6 = %{T4} %{T-}
 ramp-capacity-7 = %{T4} %{T-}
 ramp-capacity-8 = %{T4} %{T-}
 ramp-capacity-9 = %{T4} %{T-}
-ramp-capacity-font = 3
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
-animation-charging-4 = 
-animation-charging-5 = 
+animation-charging-0 = %{T4} %{T-}
+animation-charging-1 = %{T4} %{T-}
+animation-charging-2 = %{T4} %{T-}
+animation-charging-3 = %{T4} %{T-}
+animation-charging-4 = %{T4} %{T-}
+animation-charging-5 = %{T4} %{T-}
 animation-charging-framerate = 750
 
 [module/filesystem]
