@@ -7,3 +7,9 @@
 
 ## Otional
 * [icaclient](https://wiki.archlinux.org/index.php/Citrix)
+* spotify
+* apachedirectorystudio
+
+yay -S --needed - < yayLis.txt
+https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#Install_packages_from_a_list
+

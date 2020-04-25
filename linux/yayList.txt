@@ -1,4 +1,3 @@
-apachedirectorystudio
 bind-tools
 bluez-utils
 chromium
@@ -56,10 +55,8 @@ skypeforlinux-stable-bin
 snapd
 spectacle
 spicetify-cli
-spotify
 teams
 telegram-desktop
-terminator
 tmux
 ttf-font-awesome
 ttf-nerd-fonts-symbols

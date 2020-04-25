@@ -13,7 +13,8 @@ export no_proxy=""
 export FZF_BASE=/usr/bin/fzf
 
 export JAVA_HOME='/usr/lib/jvm/default'
-export GOPATH="$HOME/.go"
+export GOPATH="$HOME/go"
+export GO111MODULE=on
 
 paths=(
   "$JAVA_HOME/bin"

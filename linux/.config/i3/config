@@ -26,8 +26,8 @@
 
 set $mod Mod4
 set $laptop_screen eDP1
-set $primary DP1
-set $secondary HDMI1
+set $primary HDMI1
+set $secondary DP1
 set $wallpaper $HOME/Pictures/wallpapers/NordMountains1.png
 
 ######################
