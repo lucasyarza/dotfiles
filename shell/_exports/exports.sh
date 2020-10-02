@@ -7,7 +7,7 @@ export LC_ALL="en_US.UTF-8"
 export EDITOR='vim'
 
 # >>> Proxy <<<
-export no_proxy=""
+# export no_proxy=""
 
 # Set fzf installation directory path
 export FZF_BASE=/usr/bin/fzf
@@ -17,11 +17,13 @@ export GOPATH="$HOME/go"
 export GO111MODULE=on
 
 paths=(
-  "$JAVA_HOME/bin"
-  "$GOPATH/bin"
-  "/usr/local/sbin"
-  "/usr/local/bin"
+  # "$JAVA_HOME/bin"
+  # "$GOPATH/bin"
   "/usr/bin"
+  "/bin"
+  "/usr/sbin"
+  "/sbin"
+  "/usr/local/bin"
 )
 
 PATH=$(

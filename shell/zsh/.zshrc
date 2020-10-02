@@ -23,6 +23,7 @@ plugins=(
     z
     fzf
     tmux
+    docker
     history-substring-search
     zsh-autosuggestions
     zsh-syntax-highlighting
