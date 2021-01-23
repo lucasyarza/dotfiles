@@ -4,6 +4,11 @@
 oc() {
   unset -f oc
   source <(oc completion zsh)
+
+  unset -f kubectl
+  source $ZSH/plugins/kubectl/kubectl.plugin.zsh
+  source <(kubectl completion zsh)
+  
   oc "$@"
 }
 

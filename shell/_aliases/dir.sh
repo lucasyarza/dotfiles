@@ -22,3 +22,4 @@ alias lsa='ls -lah'
 alias md='mkdir -p'
 
 alias dotfiles="cd ~/.dotfiles"
+alias zurich="cd ~/code/bitbucket.zurich.com"

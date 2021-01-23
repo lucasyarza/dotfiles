@@ -12,18 +12,20 @@ export EDITOR='vim'
 # Set fzf installation directory path
 export FZF_BASE=/usr/bin/fzf
 
-export JAVA_HOME='/usr/lib/jvm/default'
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home'
 export GOPATH="$HOME/go"
 export GO111MODULE=on
 
 paths=(
   # "$JAVA_HOME/bin"
-  # "$GOPATH/bin"
+  "$GOPATH/bin"
   "/usr/bin"
   "/bin"
   "/usr/sbin"
   "/sbin"
   "/usr/local/bin"
+  "$HOME/.dotfiles/shell/_scripts"
+  "$HOME/.krew/bin"
 )
 
 PATH=$(

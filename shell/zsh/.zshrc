@@ -22,7 +22,6 @@ ZSH_CUSTOM=$DOTFILES_PATH/shell/zsh/custom
 plugins=(
     z
     fzf
-    tmux
     docker
     history-substring-search
     zsh-autosuggestions
