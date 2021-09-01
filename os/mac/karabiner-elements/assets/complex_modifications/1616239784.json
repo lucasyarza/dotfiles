@@ -1,5 +1,5 @@
 {
-  "title": "Left ctrl + hjkl to Arrow Keys Vim",
+  "title": "Vim mode",
   "rules": [
     {
       "description": "Left ctrl + hjkl to arrow keys Vim",

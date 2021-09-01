@@ -20,10 +20,8 @@ ZSH_CUSTOM=$DOTFILES_PATH/shell/zsh/custom
 
 # Which plugins would you like to load?
 plugins=(
-    z
     fzf
     docker
-    history-substring-search
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
