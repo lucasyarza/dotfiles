@@ -13,8 +13,8 @@ export EDITOR='vim'
 export FZF_BASE=/usr/bin/fzf
 
 # export JAVA_HOME='/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home'
-export GOPATH="$HOME/go"
-export GOROOT="/usr/local/go"
+# export GOPATH="$HOME/go"
+# export GOROOT="/usr/local/bin"
 
 paths=(
   # "$JAVA_HOME/bin"

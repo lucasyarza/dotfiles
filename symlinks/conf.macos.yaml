@@ -4,6 +4,5 @@
       force: true
 
 - link:
-    ~/.config/karabiner: os/mac/karabiner-elements
     ~/.zshrc: shell/zsh/.zshrc
     ~/.p10k.zsh: shell/zsh/.p10k.zsh
