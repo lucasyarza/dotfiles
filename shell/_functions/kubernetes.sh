@@ -1,17 +1,3 @@
-#########################
-###### OC LAZY LOAD #####
-#########################
-oc() {
-  unset -f oc
-  source <(oc completion zsh)
-
-  unset -f kubectl
-  source $ZSH/plugins/kubectl/kubectl.plugin.zsh
-  source <(kubectl completion zsh)
-  
-  oc "$@"
-}
-
 ##############################
 ###### kubectl LAZY LOAD #####
 ##############################
@@ -23,14 +9,19 @@ kubectl() {
   kubectl "$@"
 }
 
-
-# >>> Change Context in OC <<<
-function ocp() {
-  local namespace="$(oc get projects --no-headers | awk '{print $1}' | fzf)"
-  oc project $namespace
-  zle accept-line 2>/dev/null || true
+_ctxkubeconfig_complete() {
+      if [ -z "$_KUBECONFG_COMPLETE_PATH" ]; then
+          _KUBECONFG_COMPLETE_PATH="$(ls ~/.kube)"
+      fi
+      local opts="$_KUBECONFG_COMPLETE_PATH"
+      local cur=${COMP_WORDS[COMP_CWORD]}
+      COMPREPLY=($(compgen -W "$opts" -- "$cur"))
 }
 
-zle     -N   ocp
-bindkey '^k' ocp
+ctxkubeconfig() {
+  local kubefile="$HOME/.kube/$1"
+  export KUBECONFIG="$kubefile"
+  echo "$kubefile" > ~/.kubeconfig
+}
 
+complete -F _ctxkubeconfig_complete ctxkubeconfig

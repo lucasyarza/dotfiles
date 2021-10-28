@@ -6,6 +6,8 @@ export LC_ALL="en_US.UTF-8"
 
 export EDITOR='vim'
 
+export KUBECONFIG=`cat ~/.kubeconfig`
+
 # >>> Proxy <<<
 # export no_proxy=""
 
