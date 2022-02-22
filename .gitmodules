@@ -10,6 +10,3 @@
 [submodule "modules/dotbot"]
 	path = modules/dotbot
 	url = git@github.com:anishathalye/dotbot.git
-[submodule "shell/zsh/custom/plugins/zsh-vi-mode"]
-	path = shell/zsh/custom/plugins/zsh-vi-mode
-	url = https://github.com/jeffreytse/zsh-vi-mode
