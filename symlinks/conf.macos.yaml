@@ -1,8 +1,11 @@
 - defaults:
     link:
-      create: true
-      force: true
+      create: True
+      force: True
+
+- clean: ['~']
 
 - link:
+    ~/.tmux.conf: shell/tmux/.tmux.conf
     ~/.zshrc: shell/zsh/.zshrc
     ~/.p10k.zsh: shell/zsh/.p10k.zsh
