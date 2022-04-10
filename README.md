@@ -8,5 +8,9 @@
 
 ## 🚀 Installation
 ```bash
-git clone --recurse-submodules git@github.com:lucasyarza/dotfiles.git .dotfiles
+$ git clone --recurse-submodules git@github.com:lucasyarza/dotfiles.git .dotfiles
+$ make install
 ```
+
+### Only NeoVim
+Follow [installation guide](editors/nvim/README.md)

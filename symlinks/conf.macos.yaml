@@ -9,3 +9,4 @@
     ~/.tmux.conf: shell/tmux/.tmux.conf
     ~/.zshrc: shell/zsh/.zshrc
     ~/.p10k.zsh: shell/zsh/.p10k.zsh
+    ~/.config/nvim: editors/nvim
