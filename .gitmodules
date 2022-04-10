@@ -1,12 +1,12 @@
 [submodule "shell/zsh/custom/themes/powerlevel10k"]
 	path = shell/zsh/custom/themes/powerlevel10k
-	url = git@github.com:romkatv/powerlevel10k.git
+	url = ../romkatv/powerlevel10k.git
 [submodule "shell/zsh/custom/plugins/zsh-autosuggestions"]
 	path = shell/zsh/custom/plugins/zsh-autosuggestions
-	url = git@github.com:zsh-users/zsh-autosuggestions.git
+	url = ../zsh-users/zsh-autosuggestions.git
 [submodule "shell/zsh/custom/plugins/zsh-syntax-highlighting"]
 	path = shell/zsh/custom/plugins/zsh-syntax-highlighting
-	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+	url = ../zsh-users/zsh-syntax-highlighting.git
 [submodule "modules/dotbot"]
 	path = modules/dotbot
-	url = git@github.com:anishathalye/dotbot.git
+	url = ../anishathalye/dotbot.git
