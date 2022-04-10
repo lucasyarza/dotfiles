@@ -40,6 +40,7 @@ call plug#begin(stdpath('data').'/plugged')
 
     " Highlight
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    Plug 'p00f/nvim-ts-rainbow'
     Plug 'ap/vim-css-color'
 
     " Formatter
