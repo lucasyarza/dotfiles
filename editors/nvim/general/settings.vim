@@ -43,7 +43,7 @@ execute 'set undodir=' . g:nvim_data_root . '/undodir'
 " Python virtual environment detection in linux
 let g:loaded_python_provider = 0
 " Ruta donde se creó el ambiente de Python con pipenv.
-let g:python3_host_prog = '/Users/ldeyarza/.dotfiles/editors/nvim/.venv/bin/python'
+let g:python3_host_prog = '~/.dotfiles/editors/nvim/.venv/bin/python'
 
 " Gruvbox por defecto
 let g:gruvbox_italic=1
