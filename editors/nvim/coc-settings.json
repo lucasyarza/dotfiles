@@ -1,0 +1,13 @@
+{
+  "jedi.enable": true,
+  "jedi.startupMessage": false,
+  "jedi.workspace.symbols.ignoreFolders": [
+    ".nox",
+    ".tox",
+    ".venv",
+    "__pycache__",
+    "venv"
+  ],
+  "diagnostic.displayByAle": true
+}
+
