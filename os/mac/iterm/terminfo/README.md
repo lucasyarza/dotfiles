@@ -49,4 +49,4 @@ $ echo $TERM
 _should now output tmux-256color_
 
 ## Source
-(https://weibeld.net/terminals-and-shells/italics.html)
+https://weibeld.net/terminals-and-shells/italics.html
