@@ -9,10 +9,10 @@ let g:config_file_list = ['/nvim-plugins/plugins.vim',
     \ '/plug-config/nerdtree.vim',
     \ '/plug-config/nvim-treesitter-color.vim',
     \ '/plug-config/toggleterm.vim',
-    \ '/plug-config/ale.vim'
+    \ '/plug-config/ale.vim',
+    \ '/plug-config/vim-devicons.vim'
     \ ]
 
 for f in g:config_file_list
     execute 'source ' . g:nvim_config_root . f
 endfor
-
