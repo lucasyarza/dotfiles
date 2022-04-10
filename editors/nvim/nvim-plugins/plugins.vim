@@ -3,6 +3,7 @@ call plug#begin(stdpath('data').'/plugged')
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    Plug 'ctrlpvim/ctrlp.vim'
 
     " Git
     Plug 'airblade/vim-gitgutter'

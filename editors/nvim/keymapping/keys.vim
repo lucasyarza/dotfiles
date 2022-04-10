@@ -40,7 +40,7 @@ nnoremap <leader><S-tab> :bp<cr>
 nnoremap <leader>w :bd<cr>
 
 " FZF
-nmap <c-p> :Buffer<cr>
+nmap <c-e> :Buffer<cr>
 
 " VM
 let g:VM_maps = {}
