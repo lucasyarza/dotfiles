@@ -50,4 +50,6 @@ call plug#begin(stdpath('data').'/plugged')
     " Terminal
     Plug 'akinsho/toggleterm.nvim'
 
+    Plug 'lukas-reineke/indent-blankline.nvim'
+
 call plug#end()
