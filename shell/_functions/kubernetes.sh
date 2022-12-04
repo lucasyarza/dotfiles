@@ -3,28 +3,18 @@
 ##############################
 
 kubectl() {
-  unset -f kubectl
+  unset -f kubectl k9s
+  source $DOTFILES_PATH/shell/_scripts/load-k8s-config.sh
   source $ZSH/plugins/kubectl/kubectl.plugin.zsh
-  source < (kubectl completion zsh)
-  kubectl "$@"
+  kubectl "$@" #This is like kubectl "$@"
 }
 
-_ctxkubeconfig_complete() {
-      if [ -z "$_KUBECONFG_COMPLETE_PATH" ]; then
-          _KUBECONFG_COMPLETE_PATH="$(ls ~/.kube | grep kubeconfig | fzf --height=40% --layout=reverse --info=inline --border --margin=1 --padding=1)"
-      fi
-      local opts="$_KUBECONFG_COMPLETE_PATH"
-      local cur=${COMP_WORDS[COMP_CWORD]}
-      COMPREPLY=($(compgen -W "$opts" -- "$cur"))
+k9s() {
+  unset -f kubectl k9s
+  source $DOTFILES_PATH/shell/_scripts/load-k8s-config.sh
+  source $ZSH/plugins/kubectl/kubectl.plugin.zsh
+  k9s "$@" #This is like kubectl "$@"
 }
-
-ctxkubeconfig() {
-  local kubefile="$HOME/.kube/$1"
-  export KUBECONFIG="$kubefile"
-  echo "$kubefile" > ~/.kubeconfig
-}
-
-complete -F _ctxkubeconfig_complete ctxkubeconfig
 
 k9() {
   local current_dir=$(pwd)
