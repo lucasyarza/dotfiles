@@ -6,20 +6,15 @@ export LC_ALL="en_US.UTF-8"
 
 export EDITOR='vim'
 
-export KUBECONFIG=`cat ~/.kubeconfig`
-
-# >>> Proxy <<<
-# export no_proxy=""
+export PYTHON3_HOST_PROG='/Users/ldeyarza/.config/lvim/.venv/bin/python3'
 
 # Set fzf installation directory path
 export FZF_BASE=/usr/bin/fzf
 
-# export JAVA_HOME='/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home'
 # export GOPATH="$HOME/go"
-# export GOROOT="/usr/local/bin"
+export GOROOT="$HOME/go"
 
 paths=(
-  # "$JAVA_HOME/bin"
   "$GOROOT/bin"
   "/usr/bin"
   "/bin"
@@ -28,6 +23,7 @@ paths=(
   "/usr/local/bin"
   "$HOME/.dotfiles/shell/_scripts"
   "$HOME/.krew/bin"
+  "$HOME/.local/bin"
 )
 
 PATH=$(
@@ -36,3 +32,4 @@ PATH=$(
 )
 
 export PATH
+
