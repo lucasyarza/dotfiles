@@ -202,4 +202,6 @@ Temporary Items
 
 
 no_commit
-
+.venv
+.run
+staticfiles

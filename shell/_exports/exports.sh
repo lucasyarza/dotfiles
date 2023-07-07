@@ -11,10 +11,11 @@ export PYTHON3_HOST_PROG='/Users/ldeyarza/.config/lvim/.venv/bin/python3'
 # Set fzf installation directory path
 export FZF_BASE=/usr/bin/fzf
 
-# export GOPATH="$HOME/go"
-export GOROOT="$HOME/go"
+export GOPATH="$HOME/go"
+# export GOROOT="$HOME/go"
 
 paths=(
+  "/usr/local/opt/openjdk@17/bin"
   "$GOROOT/bin"
   "/usr/bin"
   "/bin"
